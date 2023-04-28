@@ -1,0 +1,55 @@
+.table {
+  width: 100%;
+  border: 1px solid #343a40;
+  border-collapse: collapse;
+  margin-top: 5px;
+}
+
+.th,
+.td {
+  padding: 16px 24px;
+  text-align: left;
+}
+
+.thead th {
+  background-color: #212529;
+  color: #fff;
+  width: 25%;
+}
+
+.tbody tr:nth-child(odd) {
+  background-color: #f8f9fa;
+}
+
+.tbody tr:nth-child(even) {
+  background-color: #e9ecef;
+}
+
+.delete {
+  color: #fff;
+  border-radius: 5px;
+  background-color: red;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.addEmployee {
+  all: unset;
+  color: #fff;
+  margin-top: 5px;
+  background-color: #087f5b;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+.update {
+  border-radius: 5px;
+  background-color: skyblue;
+  border: none;
+  padding: 5px 10px;
+}
+
+.addEmployeeCenter {
+  text-align: center;
+}
